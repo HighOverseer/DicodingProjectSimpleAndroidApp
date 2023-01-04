@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailActivity"
+    android:padding="14dp"
+    android:background="@drawable/custom_scrollview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/custom_linearlayout"
+        android:padding="24dp"
+        android:layout_margin="4dp">
+        <ImageView
+            android:id="@+id/iv_logoDetail"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/neo"/>
+
+        <TextView
+            android:id="@+id/tv_deskripsiDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/harmoniaspr"
+            android:lineSpacingMultiplier="1.5" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            app:cardCornerRadius="10dp"
+            android:elevation="5dp"
+            android:outlineAmbientShadowColor="@color/gold">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gold_bg">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="22dp">
+                    <TextView
+                        android:layout_marginTop="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/visi"
+                        android:gravity="center"
+                        android:fontFamily="@font/gilroy"
+                        android:textSize="32sp"
+                        android:shadowColor="@color/gold"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
+                        android:textColor="@color/white_100"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tv_visi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/gilroy"
+                        android:shadowColor="@color/gold"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
+                        android:textColor="@color/white_100"
+                        android:lineSpacingMultiplier="1.5"/>
+                    <TextView
+                        android:layout_marginTop="24dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/misi"
+                        android:gravity="center"
+                        android:textSize="32sp"
+                        android:textColor="@color/white_100"
+                        android:fontFamily="@font/gilroy"
+                        android:shadowColor="@color/gold"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tv_misi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/white_100"
+                        android:textSize="18sp"
+                        android:shadowColor="@color/gold"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="8"
+                        android:fontFamily="@font/gilroy"
+                        android:lineSpacingMultiplier="1.5"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DicodingProjectSimpleAndroidApp</string>
+    <string name="nama">Fajar Alif Riyandi</string>
+    <string name="email">fajariyandi36@gmail.com</string>
+    <string name="visi">Visi</string>
+    <string name="misi">Misi</string>
+    <string name="splash_text">Yuk Berkenalan dengan UKM-UKM\n yang ada di Unand!</string>
+    <string name="favorite">favorite</string>
+    <string name="about">Tentang Saya</string>
+    <string name="action_bar_text_main">UKM-UKM di UNAND</string>
+    <string name="favorites">List Favorit</string>
+    <string name="beranda">Beranda</string>
+    <string name="action_bar_text_favorite">UKM-UKM Favorit Kamu</string>
+    <string name="sekolah_saatini">Computer Engineering Student at Andalas University</string>
+    <string name="bagikan">Bagikan</string>
+</resources>
